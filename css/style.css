@@ -1,5 +1,12 @@
-/* Konstantina's */
-.reveal table td {
-    color: white;
+.reveal p {
+    margin-bottom: 30px;
     font-size: 0.6em;
+}
+
+.reveal p.smaller {
+    font-size: 0.5em;
+}
+
+.reveal i {
+    color: orange;
 }
