@@ -9,7 +9,10 @@
 	<div class="slides">
 
 		<section>
-			<h4>Computer Science</h4>
+			<h4>An introduction to Computer Science and Programming</h4>
+		</section>
+		<section>
+			<h4>What's Computer Science</h4>
 			<img src="img/cs1.jpg" style="max-width: 80%;">
 			<br>
 			<p>
@@ -18,6 +21,114 @@
 			<p class="smaller">
 				Operating Systems, Artificial Intelligence, Networks, Security, Database Systems, Vision and Graphics, Programming Languages and Software Engineering, Bioinformatics, Theory of Computing, ...
 			</p>
+		</section>
+		<section>
+			<p>Problem (or Task) Decomposition</p>
+			<img src="img/problem-decomposition.png">
+		</section>
+		<section>
+			<img src="img/network-architecture.jpg" style="max-width: 66%;">
+		</section>
+		<section>
+			<p>Operating System architecture</p>
+			<img src="img/os-architecture.png" style="max-width: 46%;">
+		</section>
+		<section>
+			<p>Human vs Machine</p>
+			<img src="img/human-vs-machine.jpg">
+		</section>
+		<section>
+			<p>
+				" A programming language is a set of rules that provides a way of telling a computer what operations to perform "
+			</p>
+		</section>
+		<section>
+			<img src="img/real-programmers-write-in-binary.jpg">
+		</section>
+		<section>
+			<img src="img/high-and-low-level-programming.png">
+		</section>
+		<section>
+			<img src="img/levels-of-programming-languages.png">
+		</section>
+		<section>
+			<p>
+				<i>Besides... the source code is just plain text, there is nothing magical about it.</i>
+			</p>
+			<pre><code>
+if (users.length == 0)
+{
+	console.log("Hello to all users");
+}
+else if (users.length == 1)
+{
+	console.log("Hello to user" + users[0].name);
+}
+else
+{
+	console.log("It's lonely here, there are no users!");
+}
+			</code></pre>
+		</section>
+		<section>
+			<p class="smaller">
+				Source code needs to be converted in order into the machine language to be executed.
+				There are two main ways to convert the source code: by <strong>compiling</strong> it and by <strong>interpreting</strong> it.
+			</p>
+			<p>When we deal with:</p>
+			<ul>
+				<li><strong><i>Compiled languages</i></strong>, the source code is converted by the <strong><i>compiler</i></strong> into the machine language, generating an executable file.</li>
+				<li><strong><i>Interpreted languages</i></strong>, the source code is given to an <strong><i>interpreter</i></strong> which converts and runs it "on the fly".</li>
+			</ul>
+		</section>
+		<section>
+			<p>Pros and cons of compiled and interpreted programming languages</p>
+			<img src="img/compiled-vs-interpreted-languages.jpg">
+		</section>
+		<section>
+			<p>What the compiler does</p>
+			<img src="img/compiler-example.png">
+		</section>
+		<section>
+			<p>What the <strong><i>compiler</i></strong> does</p>
+			<img src="img/compiler-example.png">
+		</section>
+		<section>
+			<p>An example of interpreters: the Browsers</p>
+			<img src="img/chrome-and-firefox-logos.png" style="max-width: 50%;">
+			<p class="small">The browsers interprets the languages of the web, such as:</p>
+			<ul>
+				<li>JavaScript</li>
+				<li>HTML</li>
+				<li>CSS</li>
+			</ul>
+		</section>
+		<section>
+			<p class="smaller">
+				HTML (<strong>H</strong>yper<strong>T</strong>ext <strong>M</strong>arkup <strong>L</strong>anguage) is not really a programming language <br><br>
+				generally, a programming language allows you to describe some sort of process of doing something, whereas HTML is just a way of adding context and structure to text,<br>
+				but it still gives us the idea of what an interpreter does...
+			</p>
+		</section>
+		<section>
+			<p>When the browser receives some HTML code like this:</p>
+			<pre><code style="font-size: 15px;">
+&lt;h1&gt;Here's a title&lt;/h1&gt;
+&lt;p&gt;
+	Here's a paragraph.&lt;br&gt;
+	It contains some &lt;strong&gt;bold text&lt;/strong&gt; and some &lt;i&gt;italic text&lt;/i&gt;&lt;br&gt;
+	It also contains a &lt;a href=&quot;http://www.google.com&quot; target=&quot;_blank&quot;&gt;link to Google&lt;/a&gt;.
+&lt;/p&gt;
+			</code></pre>
+			<p>it outputs the following:</p>
+			<hr>
+			<h1 style="font-size:24px;">Here's a title</h1>
+			<p>
+				Here's a paragraph.<br>
+				It contains some <strong>bold text</strong> and some <i>italic text</i><br>
+				It also contains a <a href="http://www.google.com" target="_blank">link to Google</a>.
+			</p>
+			<hr>
 		</section>
 	</div>
 </div>
